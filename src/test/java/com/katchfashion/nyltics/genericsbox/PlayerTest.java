@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlayerTest {
-  private final Player<Integer, String> testPlayer = new Player<Integer, String>();
+  protected Player<Integer, String> testPlayer = new Player<Integer, String>();
 
 
 
