@@ -1,14 +1,13 @@
 package com.katchfashion.nyltics.genericsbox;
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PlayerTest {
-  protected Player<Integer, String> testPlayer = new Player<Integer, String>();
+  protected Player<Integer, String> testPlayer = new Player<>();
 
 
 
